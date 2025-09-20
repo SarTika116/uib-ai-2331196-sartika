@@ -1,0 +1,21 @@
+import numpy
+import pandas
+import matplotlib
+import seaborn
+import sklearn
+import skfuzzy
+import cv2
+import nltk
+import torch
+import tensorflow
+
+print("numpy OK")
+print("pandas OK")
+print("matplotlib OK")
+print("seaborn OK")
+print("scikit-learn OK")
+print("scikit-fuzzy OK")
+print("opencv OK")
+print("nltk OK")
+print("torch OK")
+print("tensorflow OK")
