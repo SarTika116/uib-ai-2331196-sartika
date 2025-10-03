@@ -1,0 +1,31 @@
+2331196 - Sartika Dewi Haslim
+Tugas Lab AI minggu 2
+Project Studi Kasus Fuzzy Logic dalam penilaian kualitas kopi berdasarkan kriteria sehari-hari
+
+Deskripsi:
+Project ini menggunakan pendekatan Fuzzy Logic untuk menentukan skor kualitas kopi berdasarkan tiga variabel utama, yaitu intensity (kadar kopi/pekat), price (harga per cangkir), dan customer_rating (rating pelanggan).
+
+Alur kerja project:
+ 1. Dataset awal dihasilkan secara acak (50 baris) dengan 3 kolom utama: intensity, price, dan customer_rating.
+ 2. Membership function didefinisikan untuk variabel intensity, price, customer_rating, dan coffee_quality dengan kategori low, medium, dan high.
+ 3. Dibuat aturan (fuzzy rules) untuk mengatur hubungan antara intensity, price, customer rating, dan skor kualitas kopi.
+ 4. Dataset kemudian diproses dengan fuzzy logic sehingga menghasilkan nilai coffee_quality_score.
+ 5. Ditambahkan kolom baru berupa insight tambahan:
+    - coffee_quality_score: nilai kualitas kopi secara numerik (0–10)
+    - coffee_quality_category: kategori kualitas berdasarkan coffee_quality_score (Low, Medium, High)
+ 6. Dataset hasil akhir diekspor ke file CSV baru.
+ 7. Visualisasi berupa histogram dan bar plot dibuat untuk menunjukkan distribusi coffee_quality_score dan kategori kualitas kopi.
+
+Tools & Library:
+ - Python 3
+ - Numpy, Pandas
+ - Scikit-Fuzzy
+ - Matplotlib
+
+Output:
+ - Dataset awal (3 kolom) dalam CSV: coffee_data.csv
+ - Dataset hasil akhir (5 kolom) dalam CSV: coffee_data_with_quality.csv
+ - Visualisasi distribusi data dalam Jupyter Notebook
+
+Repo:
+https://github.com/SarTika116/uib-ai-2331196-sartika
